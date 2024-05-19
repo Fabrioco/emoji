@@ -11,6 +11,43 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: sans-serif;
 }
 
+.container {
+  background-color: #f2f2f2;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0 0 17px 0 #717171;
+}
 
+input {
+  padding: 5px;
+  width: 70%;
+  font-size: 2rem;
+}
+
+button {
+  padding: 5px;
+  width: 30%;
+  font-size: 2rem;
+}
+
+.content__emoji {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.content__emoji::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000;
+}
+
+.content__emoji::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+}

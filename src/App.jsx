@@ -1,6 +1,11 @@
 import { Home } from "./components/Home";
 import "./App.css";
+import Context from "./contextEmoji/context.jsx";
 
 export default function App() {
-  return <Home />;
+  return (
+    <Context>
+      <Home />
+    </Context>
+  );
 }
